@@ -1,8 +1,9 @@
-import React from 'react'
+import React from 'react';
 
-const Contact = () => {
+const Formulario = () => {
   return (
-    <form name="contact" method="POST" netlify>
+    <form name="contact" method="POST" data-netlify="true">
+      <input type="hidden" name="form-name" value="contact" />
       <div className="bg-dark p-4 rounded-lg">
         <h2 className="text-white text-lg mb-4">Formulario de contacto</h2>
         <div className="mb-4">
@@ -64,5 +65,4 @@ const Contact = () => {
   );
 };
 
-
-export default Contact
+export default Formulario;
