@@ -3,7 +3,7 @@ import Card from './Card';
 
 const AboutMe = () => {
   return (
-    <section className="about-me py-16 bg-dark text-text max-w-[1200px] mx-auto p-8">
+    <section className="about-me py-8 bg-dark text-text max-w-[1200px] mx-auto px-8">
       <div className="container mx-auto px-4">
         <h2 className="text-3xl font-bold mb-8">Sobre mí</h2>
         <div >
