@@ -2,7 +2,7 @@ import React from 'react';
 
 const Formulario = () => {
   return (
-    <form name="contact" method="POST" data-netlify="true">
+    <form form action="https://formsubmit.co/correo@outlook.com" method="POST">
       <input type="hidden" name="form-name" value="contact" />
       <div className="bg-dark p-4 rounded-lg">
         <h2 className="text-white text-lg mb-4">Formulario de contacto</h2>
