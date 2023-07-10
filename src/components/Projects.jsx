@@ -12,7 +12,7 @@ const Projects = () => {
             technologies={['html5', 'react', 'tailwind-css']}
             description="Este proyecto utiliza React y Tailwind CSS, y hace uso de localStorage. Su objetivo principal es crear un sistema para la veterinaria que permita llevar un registro de los datos de las mascotas."
             visitLink="https://citas-rjm.netlify.app/"
-            codeLink="https://github.com/reivaj-git/userList"
+            codeLink="https://github.com/reivaj-git/citas_react"
           />
         </div>
         <div>
@@ -41,7 +41,7 @@ const Projects = () => {
             image="/images/pokedex.png"
             technologies={['html5', 'react', 'tailwind-css', 'axios']}
             description="Este proyecto utiliza React, Axios, Enrutado, protección de rutas, Tailwind CSS y consumo de API. Además te permite hacer busquedas de pokemon y filtrado por tipo de pokemon"
-            visitLink="https://citas-rjm.netlify.app/"
+            visitLink="https://pokedex-rjm.netlify.app"
             codeLink="https://github.com/reivaj-git/pokedex-rjm"
           />
         </div>
