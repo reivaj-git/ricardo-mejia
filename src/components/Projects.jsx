@@ -3,8 +3,8 @@ import Card from './Card';
 
 const Projects = () => {
   return (
-    <main className="p-8 bg-dark">
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-[1300px] mx-auto">
+    <main className="p-8 bg-dark ">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-[1200px] mx-auto">
         <div>
           <Card
             title="Citas"

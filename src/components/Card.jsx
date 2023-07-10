@@ -2,13 +2,20 @@ import React from 'react';
 
 const Card = ({ image, title, technologies, description, visitLink, codeLink }) => {
   return (
-    <div className="w-full bg-darkSecundary rounded-lg overflow-hidden shadow-lg">
-      <img className="w-full" src={image} alt={title} />
+    <div className="w-full bg-darkSecundary rounded-lg overflow-hidden shadow-lg hover:border-2 border-primary">
+      <img
+        className="w-full transition-transform duration-300 transform-gpu scale-100 hover:scale-105"
+        src={image}
+        alt={title}
+      />
       <div className="p-4">
-        <div className="font-bold text-xl text-primary mb-2">{title}</div>
-        <div className="flex gap-4 mb-2">
+        <div className="font-bold text-xl text-center text-enfasis mb-2">{title}</div>
+        <div className="flex gap-4 mb-2 items-center justify-center">
           {technologies && technologies.map((technology, index) => (
-            <span key={index}>
+            <span
+              key={index}
+              className="transition-transform duration-300 transform-gpu hover:scale-110"
+            >
               {getIcon(technology)}
             </span>
           ))}
